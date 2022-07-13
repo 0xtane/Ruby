@@ -8,24 +8,24 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.2.3)
-      activesupport (= 5.2.3)
-    activerecord (5.2.3)
-      activemodel (= 5.2.3)
-      activesupport (= 5.2.3)
+    activemodel (5.2.8.1)
+      activesupport (= 5.2.8.1)
+    activerecord (5.2.8.1)
+      activemodel (= 5.2.8.1)
+      activesupport (= 5.2.8.1)
       arel (>= 9.0)
-    activesupport (5.2.3)
+    activesupport (5.2.8.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
     ast (2.4.0)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.10)
     debase (0.2.2)
       debase-ruby_core_source (>= 0.10.2)
     debase-ruby_core_source (0.10.4)
-    i18n (1.6.0)
+    i18n (1.11.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.2)
     minitest (5.11.3)
@@ -48,15 +48,16 @@ GEM
       rake (>= 0.8.1)
     ruby-progressbar (1.10.0)
     thread_safe (0.3.6)
-    tzinfo (1.2.5)
+    tzinfo (1.2.9)
       thread_safe (~> 0.1)
     unicode-display_width (1.4.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
-  activerecord (~> 5.2.2)
+  activerecord (~> 5.2.8)
   debase
   minitest (~> 5.11.3)
   rake (~> 12.3.2)
